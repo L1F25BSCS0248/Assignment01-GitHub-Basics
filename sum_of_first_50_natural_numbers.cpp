@@ -16,6 +16,9 @@ int main()
 	{
 		sum += i;
 	}
-	cout << " Sum of first " << N << " natural numbers (loop): " << sum << endl;
+	cout << "Sum of first " << N << " natural numbers (loop): " << sum << endl;
+	
+	int formulaSum = N * (N + 1) / 2;
+    cout << "Sum using formula n(n+1)/2: " << formulaSum << endl;
 	return 0;
 }
